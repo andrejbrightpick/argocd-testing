@@ -9,10 +9,10 @@ spec:
   replicas: 2
   template:
     metadata:
-      annotations:
-        fluentd/include: "true"
-        fluentd/multiline: "true"
-        fluentd-datastream: logs-brightpick-brightpick
+#      annotations:
+#        fluentd/include: "true"
+#        fluentd/multiline: "true"
+#        fluentd-datastream: logs-brightpick-brightpick
       labels:
         app: myapp
     spec:
